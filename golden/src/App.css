@@ -1,0 +1,62 @@
+ /* Navagation Container & Elements */
+ .nav-bar{
+  height: auto;
+  width: 100vw;
+}
+
+.nav-bar a{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 2;
+}
+
+.nav-bar a::before{
+  content: "";
+  display: block;
+  height: 5px;
+  width: auto;
+  background-color: #cc0000;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.nav-bar a::after{
+  content: "";
+  display: block;
+  height: 5px;
+  width: auto;
+  background-color: #008000;
+  transition: all 1s;
+  opacity: 0;
+}
+.nav-bar a:hover{
+  cursor: pointer;
+}
+
+.nav-bar a:hover::before{
+  content: "";
+  display: block;
+  height: 5px;
+  width: auto;
+  background-color: #cc0000;
+  opacity: 1; 
+}
+
+.nav-bar a:hover::after{
+  content: "";
+  display: block;
+  height: 5px;
+  width: auto;
+  background-color: #008000;
+  opacity: 1; 
+}
+
+.nav-bar img{
+  height: 50px;
+  width: 50px;
+}
+
+.main-menu:hover{
+  cursor: pointer;
+}
