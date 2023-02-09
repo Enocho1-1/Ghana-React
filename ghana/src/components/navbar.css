@@ -1,0 +1,53 @@
+.navagation{
+  width: 100vw;
+}
+
+.navagation-link{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 2;
+}
+
+.navagation-link > img{
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.navagation-link:hover{
+  cursor: pointer;
+}
+
+.navagation-link::before{
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #cc0000;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.navagation-link::after{
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #008000;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.navagation-link:hover::before{
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #cc0000;
+  opacity: 1; 
+}
+
+.navagation-link:hover::after{
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #008000;
+  opacity: 1; 
+}
