@@ -1,6 +1,5 @@
 import "./sidemenu.css"
 
-
 export const Sidemenu = () => {
   return (
     <div id="menu" className="side-menu">
