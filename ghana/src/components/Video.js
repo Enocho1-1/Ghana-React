@@ -1,5 +1,4 @@
-import React from "react"
-import "./video.css"
+// import "./video.css"
 import videoBg from "../assests/video-1.mp4"
 
 export const Video = () => {
