@@ -1,8 +1,10 @@
-/* .video-back{
-    position: fixed;
-    min-height: 150vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  } */
+.videoBack{
+   height: 100%;
+   width: 100%;
+  }
+
+  video{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+  }

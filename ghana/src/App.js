@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar"
 import { Sidemenu } from "./components/Sidemenu"
 import { Introtext } from "./components/Introtext"
 import { Video } from "./components/Video"
+import { Landmarks } from "./components/Landmarks"
 import { Overlay } from "./components/Overlay"
 
 export const App = () => {
@@ -16,6 +17,8 @@ export const App = () => {
         < Introtext />
         {/* Video Background*/}
         < Video />
+        {/* Landmarks Modal*/}
+        < Landmarks />
         {/* Video Background*/}
         < Overlay />
       </main>
