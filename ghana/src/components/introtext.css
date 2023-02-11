@@ -1,0 +1,47 @@
+.home-container{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw; 
+    z-index: 1;
+  }
+
+  
+  .intro-text{
+    margin: 4.688rem;
+    width: 21.875em;
+    align-self: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #cc0000;
+    text-shadow: 4px 4px 4px #008000;
+    -webkit-text-stroke: 1px #ffff00;
+  }
+
+  .intro-button{
+    display: block;
+    max-width: 9.375rem;
+    margin-top: 1.563em;
+    background: #cc0000;
+    text-decoration: none;
+    color: #ffff00;
+    font-family: inherit;
+    letter-spacing: 0.5em;
+    padding: 0.6em 1.3em;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em #008000;
+  }
+  
+  
+  .intro-button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    cursor: pointer;
+  }
+  
+  .intro-button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }

@@ -1,6 +1,7 @@
 import "./App.css"
 import { Navbar } from "./components/Navbar"
 import { Sidemenu } from "./components/Sidemenu"
+import { Introtext } from "./components/Introtext"
 
 export const App = () => {
   return (
@@ -9,6 +10,8 @@ export const App = () => {
         < Navbar />
         {/* Navagation Menu */}
         < Sidemenu />
+        {/* Introduction Text Menu */}
+        < Introtext />
       </main>
   )
 }
