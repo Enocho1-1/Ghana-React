@@ -52,7 +52,7 @@ export const Landmarksdisplay = () => {
           id:7,
           name: 'Larabanga Mosque',
           location: 'Larabanga, Ghana',
-          details:'The Larabanga Mosque is the oldest mosque in Ghana. Built in 1421, this architectural beauty is often referred to as the "the Mecca of West Africa".',
+          details:'The Larabanga Mosque was built with heavy influence from the Sudanese architectural style in the village of Larabanga, Ghana. Moreover, Larabanga Mosque is the oldest mosque in Ghana; built in 1421 it is often referred to as the "the Mecca of West Africa".',
           image: 'https://www.wmf.org/sites/default/files/styles/project_gallery_full_size/public/projects/gallery/GHA_Larabanga_JPEG_img-02.jpg?itok=Z9oh9eFN'
       },
       {
@@ -68,8 +68,13 @@ export const Landmarksdisplay = () => {
   return (
     <>
         {landmarks.map( landmark => (
-            <div className="attraction">
+            <div key={landmark.id} className="attraction">
                 <img src={landmark.image} alt={landmark.name} />
+                <div>
+                    <h1>{landmark.name}</h1>
+                    <h2>{landmark.location}</h2>
+                    <p>{landmark.details}</p>
+                </div>
             </div>
         ))}
     </>

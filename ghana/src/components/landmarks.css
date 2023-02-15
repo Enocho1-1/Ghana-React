@@ -15,8 +15,8 @@
 
 
 .pop-overlay:target{
-visibility: visible;
-opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .explore-modal{
@@ -37,46 +37,47 @@ opacity: 1;
     -webkit-backdrop-filter: blur( 0.25rem  );
     border-radius: 0.625em;
     z-index: 3;
-    }
+}
 
 .modal-close{
     font-size: 3.5rem;
-    }
+}
 
 .explore-head {
-text-align:center;
-margin-top: 1em;
-font-size: 2.813rem;
+    text-align:center;
+    margin-top: 1em;
+    font-size: 2.813rem;
 }
 
 .explore-text{
-padding: 0.625em;
-font-size: 1.875rem;
+    padding: 0.625em;
+    font-size: 1.875rem;
 }
 
 .landmarks{
     display: flex;
     flex-direction: column;
-    height: auto;
     margin-top: 1.875em;
 }
 
 .attraction{
     display: flex;
+    height: max-content;
     flex-direction: row;
-    height: auto;
-    width: auto;
+    padding: 0.313em;
+    border-bottom: #F8F0E3 solid 2px;
   }
 
-  .attraction img{
+.attraction img{
     border-radius: 1.563em;
-    height: auto;
-    width: 15.625em;
+    width: 28.125em;
     margin: 0.625em;
     padding: 0.313em;
-  }
+}
 
-
-  .attraction p{
+.attraction div{
+    margin-top: 25px;
+}
+.attraction p{
     font-size: 1.25rem;
-  }
+}
