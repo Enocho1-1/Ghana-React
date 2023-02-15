@@ -60,3 +60,23 @@ font-size: 1.875rem;
     height: auto;
     margin-top: 1.875em;
 }
+
+.attraction{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+  }
+
+  .attraction img{
+    border-radius: 1.563em;
+    height: auto;
+    width: 15.625em;
+    margin: 0.625em;
+    padding: 0.313em;
+  }
+
+
+  .attraction p{
+    font-size: 1.25rem;
+  }
