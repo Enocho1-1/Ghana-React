@@ -10,7 +10,7 @@ export const Landmarksdisplay = () => {
           name: 'Wa Naa Palace',
           location: 'Wa, Ghana',
           details:'Traditionally occupied by chiefs of the royal Wa family, this 19th-century palace has remained unoccupied since the death of the last chief, Naa Morori Bondiri in 1998. Restoration work on the various compounds within the palace began in early 2009, with hopes that a new Wa-na can be found to take up residence once again.',
-          image: 'https://i0.wp.com/jetsanza.com/js-content/uploads/2019/10/Wa-Naas-Palace.jpg?fit=800%2C453&ssl=1'
+          image: 'https://i0.wp.com/mrpocu.com/wp-content/uploads/2022/04/62376EB5-F701-4FAD-8EB1-9B994B018106.webp?fit=800%2C453&ssl=1'
       },
       {
           id:2,
@@ -66,6 +66,12 @@ export const Landmarksdisplay = () => {
     
       )
   return (
-    <div>Landmarksdisplay</div>
+    <>
+        {landmarks.map( landmark => (
+            <div className="attraction">
+                <img src={landmark.image} alt={landmark.name} />
+            </div>
+        ))}
+    </>
   )
 }
