@@ -1,8 +1,8 @@
 .home-container{
     display: flex;
     position: absolute;
-    height: 100vh;
-    width: 100vw; 
+    height: 100%;
+    width: 100%; 
     z-index: 1;
   }
 
@@ -45,3 +45,17 @@
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em;
   }
+
+/* Media Query */
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px){
+  .intro-text{
+    width: 100%;
+    font-size:2.2rem;
+    line-height: 1; 
+  }
+  
+  .intro-button{
+    font-size: 1.563rem;
+   }
+}

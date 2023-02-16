@@ -81,3 +81,44 @@
 .attraction p{
     font-size: 1.25rem;
 }
+
+/* Media Query */
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px){
+    .explore-modal{
+        height: 100%;
+        width: 100%;
+        padding: 0.313em;
+    }
+
+    .explore-head {
+        margin-top: 1.5em;
+    }
+
+    .landmarks, .attraction{
+        display: flex;
+        flex-direction: column;
+    }
+    .landmarks{
+        margin-top: 1.2em;
+    }
+
+    .attraction{
+        margin: 1.563em;
+        align-items: center;
+        padding: 0;
+    }
+
+    .attraction h1, h2{
+        font-size: 2rem;
+    }
+
+    .attraction p{
+        font-size: 1.7rem;
+    }
+
+    .attraction img{
+        width: 100%;
+    }
+
+}

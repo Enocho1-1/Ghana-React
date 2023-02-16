@@ -54,3 +54,23 @@
   color: #008000;
   text-shadow: 0.063em 0.063em #ff0000;
 }
+
+/* Media Query */
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px){
+  .side-menu{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+  }
+
+  .modal-close{
+    font-size: 3.5rem;
+  }
+
+  .menu-options{
+    margin-top: 8em;
+    justify-content: center;
+  }
+
+}

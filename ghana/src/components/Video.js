@@ -1,5 +1,5 @@
 import "./video.css"
-import videoBg from "../assests/video-1.mp4"
+import videoBg from "../assests/video.mp4"
 
 export const Video = () => {
   return (

@@ -10,3 +10,11 @@ main{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 480px){ 
+    main{
+      overflow-x: hidden;
+      width: 100%;
+    }
+ }

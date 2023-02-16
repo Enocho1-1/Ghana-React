@@ -1,5 +1,5 @@
 .navagation{
-  width: 100vw;
+  width: 100%;
 }
 
 .navagation-link{
@@ -50,4 +50,12 @@
   height: 5px;
   background-color: #008000;
   opacity: 1; 
+}
+
+/* Media Query */
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px){
+  .navagation-link{
+    margin: 1em;
+  } 
 }
