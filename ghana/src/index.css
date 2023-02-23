@@ -1,6 +1,3 @@
-html{
-  overflow: hidden;
-}
 
 ::-webkit-scrollbar {
   width: 0.625rem;
@@ -8,23 +5,33 @@ html{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffff00;
+  background: var(--theme-yellow);
   border-radius: 0.625rem; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #008000;
+  background: var(--theme-green);
   border-radius: 0.625rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff0000; 
+  background: var(--theme-red); 
   cursor: pointer;
 }
 
-body{
-  height: 100%;
-  width: 100%;
+:root{
+  --theme-red:#cc0000;
+  --theme-yellow:#ffff00;
+  --theme-green:#008000;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+

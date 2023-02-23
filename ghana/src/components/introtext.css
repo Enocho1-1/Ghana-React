@@ -13,25 +13,25 @@
     align-self: center;
     font-size: 2rem;
     line-height: 1.2;
-    color: #cc0000;
-    text-shadow: 4px 4px 4px #008000;
-    -webkit-text-stroke: 1px #ffff00;
+    color: var(--theme-red);
+    text-shadow: 4px 4px 4px var(--theme-green);
+    -webkit-text-stroke: 1px var(--theme-yellow);
   }
 
   .intro-button{
     display: block;
     max-width: 9.375rem;
     margin-top: 1.563em;
-    background: #cc0000;
+    background: var(--theme-red);
     text-decoration: none;
-    color: #ffff00;
+    color: var(--theme-yellow);
     font-family: inherit;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.25rem;
     padding: 0.6em 1.3em;
     font-size: 1.5rem;
     border: none;
     border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em #008000;
+    box-shadow: 0.1em 0.1em var(--theme-green);
   }
   
   

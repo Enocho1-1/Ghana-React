@@ -4,7 +4,7 @@ import "./landmarks.css"
 
 
 export const Landmarksdisplay = () => {
-    const [landmarks, setLandmarks] = useState([
+    const landmarkers = [
         {
           id:1,
           name: 'Wa Naa Palace',
@@ -63,8 +63,7 @@ export const Landmarksdisplay = () => {
           image: 'https://www.blackpast.org/wp-content/uploads/prodimages/files/blackpast_images/Cape_Coast_Castle_Ghana_May_19_2019_Photo_by_Strange_Acid__CC_BY-SA_4.0.jpg'
       }
     ]
-    
-      )
+    const [landmarks, setLandmarks] = useState(landmarkers)
   return (
     <>
         {landmarks.map( landmark => (
