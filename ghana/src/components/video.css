@@ -8,12 +8,3 @@
     width: inherit;
     object-fit: cover;
   }
-
-  /* Media Query for Mobile Devices */
-@media screen and (max-width: 480px){ 
-   video{
-     height: inherit;
-     width: inherit;
-     object-fit: cover;
-   }
-}
