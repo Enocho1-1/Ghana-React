@@ -20,7 +20,6 @@
     background: var(--theme-red);
     text-decoration: none;
     color: var(--theme-yellow);
-    font-family: inherit;
     letter-spacing: 0.25rem;
     padding: 0.6em 1.3em;
     font-size: 1.5rem;
@@ -44,13 +43,12 @@
 /* Media Query */
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px){
-  /* .intro-text{
-    width: 100%;
-    font-size:2.2rem;
-    line-height: 1; 
-  } */
-  
-  .intro-button{
-    font-size: 1.563rem;
-   }
+  .intro-text{
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 12em;
+  }
 }

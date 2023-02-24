@@ -1,14 +1,10 @@
 
-main{
-  overflow: hidden;
-  position: relative;
-}
-
 
   /* Media Query for Mobile Devices */
   @media screen and (max-width: 480px){ 
-    main{
+    /* main{
       overflow-x: hidden;
+      height: 100%;
       width: 100%;
-    }
+    } */
  }

@@ -1,4 +1,4 @@
-import "./landmarks.css"
+import './modal.css'
 import { Exploremodal } from "./Exploremodal"
 
 

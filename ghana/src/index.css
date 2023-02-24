@@ -30,8 +30,14 @@
 *{
   margin: 0;
   padding: 0;
-  overflow: hidden;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+
+main{
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}

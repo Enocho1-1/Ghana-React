@@ -1,47 +1,3 @@
-.pop-overlay{
-    position: absolute;
-    width: 100%; 
-    height: 100%; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.9);
-    visibility: hidden;
-    transition: all 0.4s;
-    opacity: 0;
-    z-index: 3;
-}
-
-
-.pop-overlay:target{
-    visibility: visible;
-    opacity: 1;
-}
-
-.explore-modal{
-    position: absolute;
-    overflow-y: scroll;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 31.25em;
-    width: 50%;
-    color: #F8F0E3;
-    text-shadow: 0.063em 0.063em #cc0000;
-    background: rgb(255,0,0);
-    background: linear-gradient(180deg, rgba(255,0,0,0.5) 0%, rgba(255,255,0,0.5) 35%, rgba(0,128,0,0.5) 100%);
-    backdrop-filter: blur( 0.25rem  );
-    -webkit-backdrop-filter: blur( 0.25rem  );
-    border-radius: 0.625em;
-    z-index: 3;
-}
-
-.modal-close{
-    font-size: 3.5rem;
-}
 
 .explore-head {
     text-align:center;
@@ -85,12 +41,7 @@
 /* Media Query */
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px){
-    .explore-modal{
-        height: 100%;
-        width: 100%;
-        padding: 0.313em;
-    }
-
+ 
     .explore-head {
         margin-top: 1.5em;
     }
