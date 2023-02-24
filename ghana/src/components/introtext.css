@@ -1,20 +1,11 @@
-/* .home-container{
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: 100%; 
-    z-index: 1;
-  } */
 
-  
   .intro-text{
     position: absolute;
     top: 20%;
     left: 2%;
     margin: 4.688rem;
     width: 21.875em;
-    align-self: center;
-    font-size: 2rem;
+    font-size: clamp(1.8rem,2vw, 2.2rem);
     line-height: 1.2;
     color: var(--theme-red);
     text-shadow: 4px 4px 4px var(--theme-green);
@@ -53,11 +44,11 @@
 /* Media Query */
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px){
-  .intro-text{
+  /* .intro-text{
     width: 100%;
     font-size:2.2rem;
     line-height: 1; 
-  }
+  } */
   
   .intro-button{
     font-size: 1.563rem;
