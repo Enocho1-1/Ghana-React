@@ -1,13 +1,16 @@
-.home-container{
+/* .home-container{
     display: flex;
     position: absolute;
     height: 100%;
     width: 100%; 
     z-index: 1;
-  }
+  } */
 
   
   .intro-text{
+    position: absolute;
+    top: 20%;
+    left: 2%;
     margin: 4.688rem;
     width: 21.875em;
     align-self: center;
@@ -16,6 +19,7 @@
     color: var(--theme-red);
     text-shadow: 4px 4px 4px var(--theme-green);
     -webkit-text-stroke: 1px var(--theme-yellow);
+    z-index: 1;
   }
 
   .intro-button{
