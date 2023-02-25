@@ -1,0 +1,28 @@
+@keyframes mymove {
+
+    40% {
+     transform: rotateY(20deg);
+   } 
+ }
+ 
+.primarytitle > h1{
+    position: absolute;
+    top: 0;
+    left: 2%;
+    font-size: 9.375rem;
+    color:  #008000;
+    text-shadow: -1px 0 #ffff00, 0 1px #ffff00, 1px 0 #ffff00, 0 -1px #ffff00, 7px 7px #ff0000;
+    opacity: 0.7;
+    z-index: 1;
+    animation: mymove 4s infinite;
+  }
+  
+  .primarytitle > h1::after{
+    content: "";
+    display: block;
+    width: auto;
+    padding: 10px;
+    background-color: #008000;
+    box-shadow: -1px 0 #ffff00, 0 1px #ffff00, 1px 0 #ffff00, 0 -1px #ffff00, 7px 7px #ff0000;
+    animation: mymove 4s infinite;
+  }
