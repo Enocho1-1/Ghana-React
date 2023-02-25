@@ -33,7 +33,6 @@
 
 .menu-options{
   margin-top: 5em ;
-  /* height: auto; */
   padding: 0.625em;
   display: flex;
   flex-direction: column;
