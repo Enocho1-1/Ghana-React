@@ -36,7 +36,7 @@
     font-size: 2rem;
   }
 
-  :is(.early-history, .independence, .present){
+  :is(.early-history, .independence, .present,.culture, .art){
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -53,4 +53,13 @@
     background-position: 60%;
   }
 
-  
+  .culture{
+    background-image: url('../assests/culturalEnv.jpg'); 
+    background-position: 60%;
+  }
+
+  .art{
+    background-image: url('../assests/litart.jpg'); 
+    background-position: 60%;
+  }
+
