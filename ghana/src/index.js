@@ -4,6 +4,7 @@ import './index.css';
 import { App } from './App';
 import { History } from './pages/History'
 import { Culture } from './pages/Culture'
+import { Politics } from './pages/Politics';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/culture",
     element: <Culture />,
+  },
+  {
+    path: "/politics",
+    element: <Politics />,
   },
 ]);
 

@@ -9,13 +9,10 @@
     text-decoration: none;
   }
 
-.buttonLink{
+  .buttonLink, .branchLink{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 0.625em; */
-    width: 21.875rem;
-    height: 28.125rem;
     border: none;
     border-radius: 0.313em;
     opacity: 0.5;
@@ -23,20 +20,32 @@
     animation: move-1 3s infinite;
   }
   
-  .buttonLink:hover{
+  .buttonLink{
+    width: 21.875rem;
+    height: 28.125rem;
+  }
+
+  .branchLink {
+    margin-top: 0.313rem;
+    height: 12.5em;
+    width: 12.5em;
+    text-align: center;
+  }
+  
+  .buttonLink:hover, .branchLink:hover{
     cursor: pointer;
     opacity: 1;
     transition: ease-in 1s;
   }
 
-  .buttonLink h1{
+  .buttonLink h1, .branchLink h1{
     padding-top: 1.563em;
     color: #ff0000;
     text-shadow: -1px 0 #ffff00, 0 1px  #ffff00, 1px  0 #ffff00, 0 -1px #ffff00, 5px 5px #008000;
     font-size: 2rem;
   }
 
-  :is(.early-history, .independence, .present,.culture, .art, .sports){
+  :is(.early-history, .independence, .present,.culture, .art, .sports, .govt, .executive,.legislative, .judicial){
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -68,3 +77,33 @@
     background-position: 60%;
   }
 
+  .govt{
+    background-image: url('../assests/peopeGH.jpg'); 
+    background-position: 60%;
+  }
+
+  .parties{
+    background-image: url('../assests/politicalparty.jpg'); 
+    background-size: contain;
+    background-position: 60%;
+  }
+
+  .executive{
+    background-image: url('../assests/seal.png'); 
+    background-size: contain;
+  }
+
+  .legislative{
+    background-image: url('../assests/Ghana_Parliament_Emblem.png'); 
+    background-position: 60%;
+  }
+
+  .judicial{
+    background-image: url('../assests/supreme.jpg'); 
+    background-position: 60%;
+  }
+
+  .heads{
+    background-image: url('../assests/former-pres.jpg'); 
+    background-size: contain;
+  }
