@@ -12,7 +12,7 @@
   visibility: hidden;
   transition: all 2s;
   opacity: 0;
-  z-index: 3;
+  z-index: 5;
 }
 
 .side-menu:target{

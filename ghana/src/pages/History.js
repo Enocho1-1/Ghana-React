@@ -13,9 +13,9 @@ export const History = () => {
         < Navbar />
         {/* Navagation Menu */}
         < Sidemenu />
-        < Titleheader>
+        {/* < Titleheader>
             <h1>History</h1>
-        </Titleheader>
+        </Titleheader> */}
         <Buttoncontainer />
         < Video>
           <video src={videoBg} autoPlay loop muted />

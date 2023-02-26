@@ -6,13 +6,18 @@ export const Buttoncontainer = () => {
         display: "flex",
         flexDirection: "row",
         justifyContent:"space-evenly",
-        position: "absolute",
-        top: "25%",
-        left: "45%",
-        transform: "translate(-40%, -40%)",
+        alignItems:"center",
+         position: "absolute",
+         height: "100vh",
+         width: "100vw",
+        // alignItems: "center",
+       
+        // top: "25%",
+        // left: "42%",
+        // transform: "translate(-40%, -40%)",
         flexDirection: "row",
         zIndex: "2",
-        marginTop: "12.5em"
+        // marginTop: "12.5em"
     }
   return (
     <div style={container}>
