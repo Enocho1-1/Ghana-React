@@ -21,7 +21,7 @@ export const Culture = () => {
             <Button topic="art">
               <h1>Literature & Art</h1>
             </Button>
-            <Button topic="present">
+            <Button topic="sports">
               <h1>Sports</h1>
             </Button>
         </Buttoncontainer>

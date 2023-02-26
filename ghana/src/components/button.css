@@ -36,7 +36,7 @@
     font-size: 2rem;
   }
 
-  :is(.early-history, .independence, .present,.culture, .art){
+  :is(.early-history, .independence, .present,.culture, .art, .sports){
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -60,6 +60,11 @@
 
   .art{
     background-image: url('../assests/litart.jpg'); 
+    background-position: 60%;
+  }
+
+  .sports{
+    background-image: url('../assests/kudus.jpg'); 
     background-position: 60%;
   }
 
