@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { App } from './App';
 import { History } from './pages/History'
+import { Culture } from './pages/Culture'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/history",
     element: <History />,
+  },
+  {
+    path: "/culture",
+    element: <Culture />,
   },
 ]);
 

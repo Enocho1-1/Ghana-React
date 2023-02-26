@@ -7,7 +7,7 @@ export const Sidemenu = () => {
       <div className="menu-options">
         <Link to="/">Home</Link>
         <Link to="/history">History</Link>
-        <a href="#" target="_blank">Culture</a>
+        <Link to="/culture">Culture</Link>
         <a href="#" target="_blank">Politics</a>
       </div>
     </div>
