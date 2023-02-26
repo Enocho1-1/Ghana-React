@@ -1,0 +1,56 @@
+@keyframes move-1 {
+
+    20% {
+     transform: rotateX(20deg);
+   } 
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.buttonLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625em;
+    width: 21.875rem;
+    height: 28.125rem;
+    border: none;
+    border-radius: 0.313em;
+    opacity: 0.5;
+    box-shadow: 0.313em 0.313em 0.313em #0d0d0d;
+    animation: move-1 3s infinite;
+  }
+  
+  .buttonLink:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: ease-in 1s;
+  }
+
+  .buttonLink h1{
+    padding-top: 1.563em;
+    color: #ff0000;
+    text-shadow: -1px 0 #ffff00, 0 1px  #ffff00, 1px  0 #ffff00, 0 -1px #ffff00, 5px 5px #008000;
+    font-size: 2rem;
+  }
+
+  :is(.early-history, .independence, .present){
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .early-history{
+    background-image: url('../assests/akan-artifact.jpg'); 
+  }
+
+  .independence{
+    background-image: url('../assests/kn.jpg'); 
+  }
+
+  .present{
+    background-image: url('../assests/traffic.jpg'); 
+    background-position: 60%;
+  }
+
+  
