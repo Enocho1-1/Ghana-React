@@ -49,11 +49,34 @@
   text-shadow: 0.125em 0.125em 0.188em #008000;
 }
 
+.menu-options a > img{
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+}
 .menu-options a:hover{
   cursor: pointer;
   color: #008000;
   text-shadow: 0.063em 0.063em #ff0000;
 }
+
+.menu-options a::after{
+  content: "";
+  display: block;
+  border: 0.063rem solid #e60000;
+  margin: 0.313rem;
+  transform: scale(0);
+}
+
+.menu-options a:hover::after{
+  content: "";
+  display: block;
+  border: 0.063rem solid #e60000;
+  margin: 0.313rem;
+  transform: scale(1);
+  transition: ease-in-out 1s;
+}
+
 
 /* Media Query */
 /* Media Query for Mobile Devices */
