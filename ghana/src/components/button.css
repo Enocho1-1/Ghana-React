@@ -49,8 +49,8 @@
 
   .buttonLink h1, .branchLink h1{
     padding-top: 1.563em;
-    color: #ff0000;
-    text-shadow: -1px 0 #ffff00, 0 1px  #ffff00, 1px  0 #ffff00, 0 -1px #ffff00, 5px 5px #008000;
+    color: var(--theme-red);
+    text-shadow: -1px 0 var(--theme-yellow), 0 1px  var(--theme-yellow), 1px  0 var(--theme-yellow), 0 -1px var(--theme-yellow), 5px 5px var(--theme-green);
     font-size: 2rem;
   }
 
@@ -66,6 +66,7 @@
   :is( .parties,  .heads){
     background-size: contain;
   }
+  
   .early-history{
     background-image: url('../assests/akan-artifact.jpg'); 
   }
