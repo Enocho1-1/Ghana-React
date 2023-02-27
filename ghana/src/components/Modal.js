@@ -1,8 +1,8 @@
 import './modal.css'
 
-export const Modal = ({children}) => {
+export const Modal = ({id, children}) => {
   return (
-    <div className="modal">
+    <div id={id} className="modal">
         {children}
     </div>
   )

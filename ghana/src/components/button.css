@@ -9,6 +9,7 @@
     text-decoration: none;
   }
 
+  /* Buttons & Elements */
   .buttonLink, .branchLink{
     display: flex;
     justify-content: center;
@@ -54,6 +55,7 @@
     font-size: 2rem;
   }
 
+   /* Button Background Images & Styling*/
   :is(.early-history, .independence, .present,.culture, .art, .sports, .govt, .executive,.legislative, .judicial){
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,6 +69,7 @@
     background-size: contain;
   }
   
+ 
   .early-history{
     background-image: url('../assests/akan-artifact.jpg'); 
   }

@@ -3,7 +3,8 @@ import { Navbar } from "./components/Navbar"
 import { Sidemenu } from "./components/Sidemenu"
 import { Introtext } from "./components/Introtext"
 import { Video } from "./components/Video"
-import { Landmarks } from "./components/Landmarks"
+import { Modalcontain } from "./components/Modalcontain"
+import { Exploremodal } from "./components/Exploremodal"
 import { Overlay } from "./components/Overlay"
 import videoBg from "./assests/ghana-133663.mp4"
 
@@ -21,7 +22,9 @@ export const App = () => {
           <video src={videoBg} autoPlay loop muted />
         </Video>
         {/* Landmarks Modal*/}
-        < Landmarks />
+        < Modalcontain id="landmarks"> 
+          < Exploremodal />
+        </Modalcontain>
         {/* Video Background*/}
         < Overlay />
       </main>
