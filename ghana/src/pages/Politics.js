@@ -5,7 +5,7 @@ import { Overlay } from "../components/Overlay"
 import { Buttoncontainer } from "../components/Buttoncontainer"
 import { Button } from "../components/Button"
 import { Branches } from "../components/Branches"
-import videoBg from "../assests/volta.mov"
+import videoBg from "../assests/timelapse.mov"
 import "../components/button.css"
 
 export const Politics = () => {

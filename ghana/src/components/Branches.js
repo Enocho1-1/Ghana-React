@@ -1,17 +1,9 @@
 import "../components/button.css"
 
 export const Branches = () => {
-    const branch = {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent:"space-between",
-        flexWrap: "wrap",
-        width: "31.25em"
-      }
-
-
+  
   return (
-    <div style={branch}>
+    <div className="branchLinkcontain">
         <a href="" className="branchLink executive">
             <h1>Executive branch</h1>
         </a>

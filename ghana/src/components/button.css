@@ -19,16 +19,25 @@
     box-shadow: 0.313em 0.313em 0.313em #0d0d0d;
     animation: move-1 3s infinite;
   }
+
   
   .buttonLink{
     width: 21.875rem;
     height: 28.125rem;
   }
 
+  .branchLinkcontain{
+    display: grid;
+    grid-template-columns: 200px 200px  ;
+    grid-template-rows: 200px 200px ;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+
   .branchLink {
     margin-top: 0.313rem;
     height: 12.5em;
-    width: 12.5em;
+    width: 10em;
     text-align: center;
   }
   
