@@ -8,6 +8,7 @@ import videoBg from "../assests/volta.mov"
 import "../components/button.css"
 
 export const Culture = () => {
+
   return (
     <main>
         {/* Navagation Button */}
@@ -15,8 +16,8 @@ export const Culture = () => {
         {/* Navagation Menu */}
         < Sidemenu />
         <Buttoncontainer>
-            <Button topic="culture">
-             <h1>Cultural Environment</h1>
+            <Button topic="culture" >
+              <h1>Cultural Environment</h1>
             </Button>
             <Button topic="art">
               <h1>Literature & Art</h1>

@@ -6,7 +6,7 @@
   right: 0;
   bottom: 0;
   background: rgb(255,0,0);
-  background: linear-gradient(180deg, rgba(255,0,0,0.5) 0%, rgba(255,255,0,0.5) 35%, rgba(0,128,0,0.5) 100%);
+  background: linear-gradient(180deg, rgba(255,0,0,0.8) 0%, rgba(255,255,0,0.8) 35%, rgba(0,128,0,0.8) 100%);
   backdrop-filter: blur( 0.25rem );
   -webkit-backdrop-filter: blur( 0.25 );
   visibility: hidden;
@@ -22,14 +22,12 @@
 
 .modal-close{
   position: absolute;
-  font-size: 5rem;
-  background: -webkit-linear-gradient(#ff0000, #ffff00,#008000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:rgb(38,38,38);
   text-decoration: none;
-  top: 0;
+  top: 2%;
   left: 5%;
 }
+
 
 .menu-options{
   position: relative;
@@ -43,17 +41,11 @@
 .menu-options a{
   text-decoration: none;
   font-size: 3.438rem;
-  /* margin-top: 4.688rem; */
   padding: 0.313em;
   color: #ffff00;
   text-shadow: 0.125em 0.125em 0.188em #008000;
 }
 
-.menu-options a > img{
-  display: inline-block;
-  height: 250px;
-  width: 250px;
-}
 .menu-options a:hover{
   cursor: pointer;
   color: #008000;
@@ -63,7 +55,8 @@
 .menu-options a::after{
   content: "";
   display: block;
-  border: 0.063rem solid #e60000;
+  background-color: var(--theme-red);
+  height: 2px;
   margin: 0.313rem;
   transform: scale(0);
 }
@@ -74,7 +67,7 @@
   border: 0.063rem solid #e60000;
   margin: 0.313rem;
   transform: scale(1);
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 
 

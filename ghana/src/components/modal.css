@@ -33,7 +33,7 @@
     color: #F8F0E3;
     text-shadow: 0.063em 0.063em #cc0000;
     background: rgb(255,0,0);
-    background: linear-gradient(180deg, rgba(255,0,0,0.5) 0%, rgba(255,255,0,0.5) 35%, rgba(0,128,0,0.5) 100%);
+    background: linear-gradient(180deg, rgba(255,0,0,0.8) 0%, rgba(255,255,0,0.8) 35%, rgba(0,128,0,0.8) 100%);
     backdrop-filter: blur( 0.25rem  );
     -webkit-backdrop-filter: blur( 0.25rem  );
     border-radius: 0.625em;
