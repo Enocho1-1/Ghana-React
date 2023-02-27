@@ -17,12 +17,9 @@ export const History = () => {
         {/* Navagation Menu */}
         < Sidemenu />
         <Buttoncontainer>
-            <Button topic="early-history" target="#modalBox">
+            <Button topic="early-history" target="#earlyhisotry">
                 <h1>Early History</h1>
             </Button>
-            < Modalcontain id="modalBox"> 
-              <Historymodal />
-            </Modalcontain>
             <Button topic="independence">
                 <h1>Independence</h1>
             </Button>
@@ -30,6 +27,10 @@ export const History = () => {
                 <h1>Present</h1>
             </Button>
         </Buttoncontainer>
+        {/* Pop Up Modals */}
+        < Modalcontain id="earlyhisotry"> 
+              <Historymodal />
+          </Modalcontain>
         < Video>
           <video src={videoBg} autoPlay loop muted />
         </Video>
