@@ -58,6 +58,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  :is( .present,.culture,.art,.sports, .govt,.parties,.executive,.legislative,.judicial ){
+    background-position: 60%;
+  }
+
+  :is( .parties,  .heads){
+    background-size: contain;
+  }
   .early-history{
     background-image: url('../assests/akan-artifact.jpg'); 
   }
@@ -68,51 +76,41 @@
 
   .present{
     background-image: url('../assests/traffic.jpg'); 
-    background-position: 60%;
+  
   }
 
   .culture{
     background-image: url('../assests/culturalEnv.jpg'); 
-    background-position: 60%;
   }
 
   .art{
     background-image: url('../assests/litart.jpg'); 
-    background-position: 60%;
   }
 
   .sports{
     background-image: url('../assests/kudus.jpg'); 
-    background-position: 60%;
   }
 
   .govt{
     background-image: url('../assests/peopeGH.jpg'); 
-    background-position: 60%;
   }
 
   .parties{
     background-image: url('../assests/politicalparty.jpg'); 
-    background-size: contain;
-    background-position: 60%;
   }
 
   .executive{
     background-image: url('../assests/seal.png'); 
-    background-size: contain;
   }
 
   .legislative{
     background-image: url('../assests/Ghana_Parliament_Emblem.png'); 
-    background-position: 60%;
   }
 
   .judicial{
     background-image: url('../assests/supreme.jpg'); 
-    background-position: 60%;
   }
 
   .heads{
     background-image: url('../assests/former-pres.jpg'); 
-    background-size: contain;
   }
