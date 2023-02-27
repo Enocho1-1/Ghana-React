@@ -32,17 +32,18 @@
 }
 
 .menu-options{
-  margin-top: 5em ;
-  padding: 0.625em;
+  position: relative;
   display: flex;
+  top: 15%;
   flex-direction: column;
   align-items: center;
+  height: max-content;
 }
 
 .menu-options a{
   text-decoration: none;
   font-size: 3.438rem;
-  margin-top: 4.688rem;
+  /* margin-top: 4.688rem; */
   padding: 0.313em;
   color: #ffff00;
   text-shadow: 0.125em 0.125em 0.188em #008000;
