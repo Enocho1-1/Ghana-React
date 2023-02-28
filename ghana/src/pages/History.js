@@ -26,7 +26,7 @@ export const History = () => {
                 <h1>Independence</h1>
             </Button>
             <Button topic="present" target="#present">
-                <h1>Present</h1>
+                <h1>Ghana Today</h1>
             </Button>
         </Buttoncontainer>
 
