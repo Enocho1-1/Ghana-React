@@ -72,6 +72,14 @@
     transition: ease-in-out 1s;
 }
 
+.hide{
+    display: none;
+  }
+  
+.inner-link:hover + .hide{
+display: inline-block;
+position: absolute;
+}
 
 /* Media Query */
 /* Media Query for Mobile Devices */
