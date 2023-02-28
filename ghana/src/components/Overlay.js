@@ -1,8 +1,17 @@
-import "./overlay.css"
-
 
 export const Overlay = () => {
+  const overlay = {
+    position: "absolute",
+    height: "100%",
+    width: "100%", 
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: "rgb(173,216,230,0.2)",
+    zIndex: 0
+  }
   return (
-    <div className="overlay"></div>
+    <div style={overlay}></div>
   )
 }

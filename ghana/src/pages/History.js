@@ -17,7 +17,7 @@ export const History = () => {
         {/* Navagation Menu */}
         < Sidemenu />
         <Buttoncontainer>
-            <Button topic="early-history" target="#earlyhisotry">
+            <Button topic="early-history" target="#earlyhistory">
                 <h1>Early History</h1>
             </Button>
             <Button topic="independence">
