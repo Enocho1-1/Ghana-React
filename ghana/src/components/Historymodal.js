@@ -3,6 +3,7 @@ import Ancientmap from "../assests/ancient_ghana_map.jpg"
 import Goldenstool from "../assests/golden_stool.jpg"
 import King from "../assests/King.jpg"
 import Trade from "../assests/traderoutes.png"
+import Almoravids from "../assests/almoravids.jpg"
 
 
 export const Historymodal = () => {
@@ -45,6 +46,7 @@ export const Historymodal = () => {
                     <p>When the king was not busy enforcing his power among the people, he was spreading it internationally through trade. At its peak, Ghana was chiefly bartering gold, ivory, and slaves for salt from Arabs and horses, cloth, swords, and books from North Africans and Europeans. As salt was worth its weight in gold, and gold was so abundant in the kingdom, Ghana achieved much of its wealth through trade with the Arabs. Islamic merchants traveled over two months through the desert to reach Ghana and "do business." They were taxed for both what they brought in and what they took out. With this system, it is no wonder that Ghana got rich quickly.</p>
                     <br />
                     <br />
+                    <img src={Almoravids} alt="Almoravids Invaders of Ancient Ghana" style={{float:"left"}} title="Almoravids Invaders of Ancient Ghana" />
                     <p>The wealth that the kingdom acquired did not, however, serve in its favor forever. Competition from other states in the gold trade eventually took its toll. Jealousy, fear, and anger of Ghana's power prompted its neighbors to stand up against the kingdom. Their efforts were at first weak and insignificant, but eventually, in the mid-11th century, a Muslim group known as the Almoravids launched a devastating invasion on the capital city of Koumbi Saleh. Though territories were seized, and a tribute tax was enforced, Ghana recovered and forced the invaders to withdraw. A little less than 200 years later, however, Ghana was not so lucky. Weakened by subsequent attacks, and cut-off from international trade, the kingdom was vulnerable and unable to prevent defeat. In 1240 C.E., Ghana was absorbed into the growing nation of Mali, which would soon become the next great empire.</p>
                       
                 </div>
