@@ -6,6 +6,8 @@ import { Buttoncontainer } from "../components/Buttoncontainer"
 import { Button } from "../components/Button"
 import { Modalcontain } from "../components/Modalcontain"
 import { Historymodal } from "../components/Historymodal"
+import { Independencemodal } from "../components/Independencemodal"
+import { Presentmodal } from "../components/Presentmodal"
 import videoBg from "../assests/indy-arch.mov"
 import "../components/button.css"
 
@@ -20,17 +22,25 @@ export const History = () => {
             <Button topic="early-history" target="#earlyhistory">
                 <h1>Early History</h1>
             </Button>
-            <Button topic="independence">
+            <Button topic="independence" target="#independence">
                 <h1>Independence</h1>
             </Button>
-            <Button topic="present">
+            <Button topic="present" target="#present">
                 <h1>Present</h1>
             </Button>
         </Buttoncontainer>
+
         {/* Pop Up Modals */}
-        < Modalcontain id="earlyhisotry"> 
-              <Historymodal />
-          </Modalcontain>
+        < Modalcontain id="earlyhistory"> 
+            <Historymodal />
+        </Modalcontain>
+        < Modalcontain id="independence"> 
+            <Independencemodal />
+        </Modalcontain>
+        < Modalcontain id="present"> 
+            <Presentmodal />
+        </Modalcontain>
+        {/* Pop Up Modals */}
         < Video>
           <video src={videoBg} autoPlay loop muted />
         </Video>
