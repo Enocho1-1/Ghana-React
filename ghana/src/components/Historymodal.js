@@ -3,7 +3,7 @@ import Ancientmap from "../assests/ancient_ghana_map.jpg"
 import Goldenstool from "../assests/golden_stool.jpg"
 import King from "../assests/King.jpg"
 import Trade from "../assests/traderoutes.png"
-import "./landmarks.css"
+
 
 export const Historymodal = () => {
   return (

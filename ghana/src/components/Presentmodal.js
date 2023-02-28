@@ -4,7 +4,7 @@ import Religion from "../assests/religion.webp"
 import Fishing from "../assests/fishing.jpg"
 import Coco from "../assests/coco.jpg"
 import Timber from "../assests/timber.jpg"
-import "./landmarks.css"
+
 
 export const Presentmodal = () => {
   return (

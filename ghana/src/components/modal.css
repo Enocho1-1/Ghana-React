@@ -28,7 +28,7 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 31.25em;
+    max-height: 31.25em;
     width: 50%;
     color: #F8F0E3;
     text-shadow: 0.063em 0.063em #cc0000;
@@ -43,6 +43,35 @@
 .modal-close{
     font-size: 3.5rem;
 }
+
+.explore-head {
+    text-align:center;
+    margin-top: 1em;
+    font-size: 2.813rem;
+}
+
+.explore-text{
+    padding: 0.625em;
+    font-size: 1.875rem;
+}
+
+.explore-text p{
+    display: inline;
+}
+
+.explore-text img{
+    width:150px;
+    height:150px;
+    margin: 0 25px;
+    shape-outside: inset(5%);
+}
+
+.explore-text img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
 
 /* Media Query */
 /* Media Query for Mobile Devices */

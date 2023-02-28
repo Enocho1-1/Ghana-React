@@ -1,31 +1,4 @@
 
-.explore-head {
-    text-align:center;
-    margin-top: 1em;
-    font-size: 2.813rem;
-}
-
-.explore-text{
-    padding: 0.625em;
-    font-size: 1.875rem;
-}
-
-.explore-text p{
-    display: inline;
-}
-
-.explore-text img{
-    width:150px;
-    height:150px;
-    margin: 0 25px;
-    shape-outside: inset(5%);
-}
-
-.explore-text img:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: ease-in-out 1s;
-}
 
 
 .landmarks{

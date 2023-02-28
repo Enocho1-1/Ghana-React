@@ -1,5 +1,6 @@
 
 import "./landmarks.css"
+import "./modal.css"
 import Close from "../assests/ghana.png"
 import { Closebutton } from './Closebutton'
 import { Landmarksdisplay } from "./Landmarksdisplay"
