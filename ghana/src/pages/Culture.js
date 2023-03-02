@@ -31,7 +31,7 @@ export const Culture = () => {
             </Button>
         </Buttoncontainer>
 
-          {/* Pop Up Modals */}
+        {/* Pop Up Modals */}
         <Modalcontain id="culture"> 
           <Culturemodal />
         </Modalcontain>
