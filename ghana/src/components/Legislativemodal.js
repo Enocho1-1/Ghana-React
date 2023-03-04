@@ -5,7 +5,7 @@ import Emblem from "../assests/Ghana_Parliament_Emblem.png"
 export const Legislativemodal = () => {
   return (
     <Modal>
-      {/* Colonialism Section */}
+      {/* Legislative Section */}
       <section>
             <h1 className="explore-head"> Legislative Branch </h1> 
             <hr />
