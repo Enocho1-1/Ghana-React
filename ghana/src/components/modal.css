@@ -108,9 +108,6 @@ table{
     font-size: 1.2rem;
     text-align: center;
     border-collapse: collapse;
-    background: -webkit-linear-gradient(#ff0000, #ffff00,#008000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
   
   

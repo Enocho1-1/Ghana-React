@@ -1,7 +1,15 @@
-import { useState } from "react"
+
 import { Modal } from "./Modal"
+import { Governortable } from "./Governortable"
 
 export const Headsmodal = () => {
+
+  const style = {
+    fontSize: "1.563rem",
+    width:"fit-content",
+    margin:"5px",
+    padding:"10px"
+  }
   const monarch_branch = [
     {
         No: '1',
@@ -15,7 +23,38 @@ export const Headsmodal = () => {
         pm:'Nkrumah'
     }
 ]
-  const [monarch, setMonarch] = useState(monarch_branch)
+const governor_general = [
+  {
+      No:'1',
+      name:'Sir Charles Arden-Clarke',
+      potrait:'http://127.0.0.1:5501/Ghana/imgs/The_National_Archives_UK_-_CO_1069-43-9_-_crop.jpg',
+      term:'6 March 1957 - 14 May 1957',
+      length:'69 days',
+      royal:'Queen Elizabeth II',
+      description:'Sir Charles Arden-Clarke was a British Colonial Adminstrator, furthermore he was a representative of the monarchy in Ghana.',
+      pm:'Nkrumah'
+  },
+  {
+      No:'2',
+      name:'Kobina Arku Korsah',
+      potrait:'http://127.0.0.1:5501/Ghana/imgs/Korsah.jpg',
+      term:'14 May 1957 - 13 November 1957',
+      length:'183 days',
+      royal:'Queen Elizabeth II',
+      description:'Kobina Arku Korsah was the first chief of justice of Ghana in 1956.',
+      pm:'Nkrumah'
+  },
+  {
+      No:'3',
+      name:'The Rt. Hon. The Earl of Listowel',
+      potrait:'http://127.0.0.1:5501/Ghana/imgs/Earl_of_Listowel_1962.jpg',
+      term:'13 November 1957 - 1 July 1960',
+      length:'2 years, 231 days',
+      royal:'Queen Elizabeth II',
+      description:'William Francis Hare, 5th Earl of Listowel ,was an Anglo-Irish peer and Labour politician. He was the last Secretary of State for India as well as the last Governor-General of Ghana.',
+      pm:'Nkrumah'
+  }
+]
   return (
     <Modal>
        {/*  List of Heads of State Section */}
@@ -27,6 +66,7 @@ export const Headsmodal = () => {
             </div>
             {/* Monarchy */}
             <h2 className="explore-head">Monarch (1957–1960)</h2>
+           
             <table>
               <tr>
                   <th>No.</th>
@@ -36,7 +76,7 @@ export const Headsmodal = () => {
                   <th>Royal House</th>
                   <th>Prime Minister</th>
               </tr>
-              {monarch.map(item => (
+              {monarch_branch .map(item => (
                 <tr>
                   <td>{item.No}</td>
                   <td>{item.name}</td>
@@ -52,6 +92,10 @@ export const Headsmodal = () => {
               ))}
           </table>
           <h2 className="explore-head">Governor General</h2>
+          <div style={style}>
+            <p>The governor-general was the representative of the monarchy in Ghana and exercised most of the powers of the monarch. The governor-general was appointed for an indefinite term, serving at the pleasure of the monarch.  </p>  
+          </div>
+          <Governortable list={governor_general}/>
         </section>
     </Modal>
   )
