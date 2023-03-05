@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { Modal } from "./Modal"
 import NPP from "../assests/npp.png"
+import Addo from "../assests/addo (1).jpg"
+import Bawumia from "../assests/addo (2).jpg"
 export const Executivemodal = () => {
   const executive_branch = [
     {
@@ -8,16 +10,16 @@ export const Executivemodal = () => {
         name: 'Nana Akufo-Addo',
         party:'New Patriotic Party',
         term:'7 January 2017',
-        image: 'http://127.0.0.1:5501/Ghana/imgs/Nana_Akufo_Addo,_Jan._2020.jpg',
-        party_image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/NewPatrioticParty_logo.svg/1200px-NewPatrioticParty_logo.svg.png'
+        image: Addo,
+        party_image: NPP
     },
     {
         office:'Vice President',
         name: 'Mahamudu Bawumia',
         party:'New Patriotic Party',
         term:'7 January 2017',
-        image:'http://127.0.0.1:5501/Ghana/imgs/Mahamudu-Bawumia.jpg',
-        party_image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/NewPatrioticParty_logo.svg/1200px-NewPatrioticParty_logo.svg.png'
+        image:Bawumia,
+        party_image: NPP
     }
 ]
 const [executives, setExecutives] = useState(executive_branch)
