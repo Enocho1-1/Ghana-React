@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Modal } from "./Modal"
 import NPP from "../assests/npp.png"
 import Addo from "../assests/addo (1).jpg"
@@ -22,7 +21,7 @@ export const Executivemodal = () => {
         party_image: NPP
     }
 ]
-const [executives, setExecutives] = useState(executive_branch)
+
   return (
     <Modal>
         {/* Executive Section */}
@@ -38,15 +37,16 @@ const [executives, setExecutives] = useState(executive_branch)
                   <th>Term</th>
                 </tr>
                
-                 {executives.map( item => (
+                 {executive_branch.map( item => (
                   <tr>
                     <td>{item.office}</td>
                     <td>{item.name}</td>
                     <td><img src={item.image} alt="" /></td>
-                    <td><a href="#" class="inner-link">{item.party}</a><img src={item.party_image} class="hide"/></td>
+                    <td><img src={item.party_image} title={item.party}/></td>
                     <td>{item.term}</td>
                   </tr>
                  ))}
+                
               
             </table>
             <div className="explore-text">

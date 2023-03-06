@@ -21,8 +21,8 @@ export const Governortable = ({list}) => {
                     <br/>
                     {item.length}
                 </td>
-                <td>{item .royal}</td>
-                <td>{item.pm}</td>
+                <td><img src={item .royal} alt="" title="Windosr"/></td>
+                <td><img src={item.pm} alt="" title="Kwame Nkrumah"/></td>
             </tr>
         ))}
     </table>
