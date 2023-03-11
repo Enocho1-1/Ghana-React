@@ -12,6 +12,11 @@ import Listowel from "../assests/govgeneral (3).jpg"
 import Ankrah from "../assests/ankrah.webp"
 import Afrifa from "../assests/afrifa.jpeg"
 import Armedforces from "../assests/armedforces.png"
+import Busia from "../assests/busia.jpeg"
+import Ollennua from "../assests/Ollennu.jpg"
+import EdwardAddo from "../assests/Akufo_Addo.jpg"
+import Independent from "../assests/flag.png"
+
 export const Headsmodal = () => {
 
   const style = {
@@ -40,9 +45,11 @@ const governor_general = [
       potrait: ArdenClarke,
       term:'6 March 1957 - 14 May 1957',
       length:'69 days',
-      royal:Windsor,
+      party:Windsor,
+      partyName: 'Windsor',
       description:'Sir Charles Arden-Clarke was a British Colonial Adminstrator, furthermore he was a representative of the monarchy in Ghana.',
-      pm: Nkrumah 
+      pm: Nkrumah,
+      title: 'Kwame Nkrumah'
   },
   {
       No:'2',
@@ -50,9 +57,11 @@ const governor_general = [
       potrait:Korsah ,
       term:'14 May 1957 - 13 November 1957',
       length:'183 days',
-      royal:Windsor,
+      party:Windsor,
+      partyName: 'Windsor',
       description:'Kobina Arku Korsah was the first chief of justice of Ghana in 1956.',
-      pm: Nkrumah 
+      pm: Nkrumah,
+      title: 'Kwame Nkrumah'
   },
   {
       No:'3',
@@ -60,9 +69,11 @@ const governor_general = [
       potrait:Listowel,
       term:'13 November 1957 - 1 July 1960',
       length:'2 years, 231 days',
-      royal:Windsor,
+      party:Windsor,
+      partyName: 'Windsor',
       description:'William Francis Hare, 5th Earl of Listowel ,was an Anglo-Irish peer and Labour politician. He was the last Secretary of State for India as well as the last Governor-General of Ghana.',
-      pm: Nkrumah 
+      pm: Nkrumah,
+      title: 'Kwame Nkrumah' 
   }
 ]
 
@@ -93,6 +104,42 @@ const military_rule = [
     party: Armedforces ,
     partyName: 'Military'
   }
+]
+
+const second_republic = [
+    {
+      No:'4',
+      name:'Brigadier Akwasi Afrifa',
+      potrait: Afrifa,
+      term:'3 September 1969 - 7 August 1970 ',
+      length:'338 days',
+      party: Armedforces ,
+      partyName: 'Military',
+      pm: Busia,
+      title: 'Kofi A. Busia' 
+  },
+  {
+    No:'-',
+    name:'Nii Amaa Ollennua',
+    potrait: Ollennua,
+    term:'7 August 1970 - 31 August 1970',
+    length:'24 days',
+    party: Independent ,
+    partyName: 'Independent',
+    pm: Busia,
+    title: 'Kofi A. Busia' 
+},
+{
+  No:'5',
+  name:'Edward Akufo-Addo',
+  potrait: EdwardAddo,
+  term:'31 August 1970 - 13 January 1972 (deposed)',
+  length:'1 year, 135 days',
+  party: Independent ,
+  partyName: 'Independent',
+  pm: Busia,
+  title: 'Kofi A. Busia' 
+}
 ]
   return (
     <Modal>
@@ -145,6 +192,11 @@ const military_rule = [
             <p>Lieutenant-General Joseph Arthur Ankrah led a coup d'état that overthrew President Nkrumah and his government, and all political parties and Parliament became obsolete.</p>
           </div>
           <Table list={military_rule} />
+          <h2 className="explore-head">Second Republic (1969–1972)</h2>
+          <div style={style}>
+            <p>Ghana's government returned to civilian authority under the Second Republic in October 1969 after a parliamentary election in which the Progress Party, primarily led by Kofi A. Busia, won 105 of the 140 seats. Until mid-1970, the powers of the chief of state resided within the presidential commission led by Brigadier A.A. Afrifa.</p>
+          </div>
+          <Governortable list={second_republic}/>
         </section>
     </Modal>
   )
