@@ -9,7 +9,9 @@ import Nkrumah from "../assests/kn.jpg"
 import ArdenClarke from "../assests/govgeneral (1).jpg"
 import Korsah from "../assests/govgeneral (2).jpg"
 import Listowel from "../assests/govgeneral (3).jpg"
-
+import Ankrah from "../assests/ankrah.webp"
+import Afrifa from "../assests/afrifa.jpeg"
+import Armedforces from "../assests/armedforces.png"
 export const Headsmodal = () => {
 
   const style = {
@@ -28,7 +30,7 @@ export const Headsmodal = () => {
         royal: 'Windsor',
         image: Windsor,
         description:'Queen Elizabeth II reigned over Ghana from 1957 to 1960 while simultaneously ruling the United Kingdom and the other Commonwealth realms.',
-        pm:'Nkrumah'
+        pm:Nkrumah 
     }
 ]
 const governor_general = [
@@ -73,6 +75,25 @@ const first_republic = [
     party: CPP ,
     partyName: 'Convention People\'s Party'
 }]
+
+const military_rule = [
+    {
+      No:'2',
+      name:'Lieutenant-General Joseph Arthur Ankrah',
+      potrait: Ankrah,
+      term:'24 February 1966 - 2 April 1969 (resigned) 3 years, 37 days',
+      party: Armedforces ,
+      partyName: 'Military'
+  },
+  {
+    No:'3',
+    name:'Brigadier Akwasi Afrifa',
+    potrait: Afrifa,
+    term:'2 April 1969 - 3 September 1969 154 days',
+    party: Armedforces ,
+    partyName: 'Military'
+  }
+]
   return (
     <Modal>
        {/*  List of Heads of State Section */}
@@ -105,7 +126,7 @@ const first_republic = [
                     {item.length}
                   </td>
                   <td><img src={item.image} title={item.royal}/></td>
-                  <td>{item.pm}</td>
+                  <td><img src={item.pm} alt="" title="Kwame Nkrumah"/></td>
                 </tr>
               ))}
           </table>
@@ -119,6 +140,11 @@ const first_republic = [
           <p>Under the Constitution of 1960, the first constitution of the Republic of Ghana, the president replaced the monarch as the executive head of state. The president was elected by Parliament for a 5-year term. In the event of a vacancy, three members of the Cabinet served jointly as acting president.</p> 
           </div>
           <Table list={first_republic} />
+          <h2 className="explore-head">Military rule (1966–1969)</h2>
+          <div style={style}>
+            <p>Lieutenant-General Joseph Arthur Ankrah led a coup d'état that overthrew President Nkrumah and his government, and all political parties and Parliament became obsolete.</p>
+          </div>
+          <Table list={military_rule} />
         </section>
     </Modal>
   )
