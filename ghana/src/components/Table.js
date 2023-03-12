@@ -15,7 +15,11 @@ export const Table = ({list}) => {
             <td>{item.No}</td>
             <td>{item.name}</td>
             <td><img src={item.potrait}/></td>
-            <td>{item.term}</td>
+            <td>
+              {item.term}
+                <br/>
+              {item.length}
+            </td>
             <td><img src={item .party} alt="" title={item.partyName}/></td>
         </tr>
     ))}
