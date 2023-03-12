@@ -326,7 +326,7 @@ const fourth_republic = [
             <p>Under the Constitution of 1979, the president was head of both state and government. The president was directly elected and served a four-year term that ended at the next general election; a president might serve a maximum of two terms. In the event of a vacancy, the vice president served as acting president.</p>
           </Paragraphstyle>
           <Table list={third_republic} />
-        </section>
+     
 
           {/* Military rule (1981–1993) */}
           <h2 className="explore-head">Military rule (1981–1993)</h2>
@@ -341,6 +341,7 @@ const fourth_republic = [
             <p>The current Constitution of Ghana follows the same precedent as the constitution of 1979 which states that the president is head of both state and government. The president is directly elected and serves a four-year term that expires at the next general election; a president may serve a maximum of two terms. In the event of a vacancy, the vice president serves the remaining time as the president.</p>
           </Paragraphstyle>
           <Table list={fourth_republic} />
+        </section>
     </Modal>
   )
 }
