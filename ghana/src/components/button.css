@@ -1,14 +1,3 @@
-@keyframes move-1 {
-
-    20% {
-     transform: rotateX(20deg);
-   } 
-  }
-
-  a{
-    text-decoration: none;
-  }
-
   @keyframes fade{
     0%{
         opacity: 0;
@@ -24,7 +13,6 @@
     border-radius: 0.313em;
     opacity: 0.5;
     box-shadow: 0.313em 0.313em 0.313em #0d0d0d;
-    animation: move-1 3s infinite;
     animation: fade ease-in 6s;
   }
 
