@@ -18,7 +18,6 @@ export const Sportsmodal = () => {
     {number:"10", name:"Margaret Simpson", sport:"Track/Field", birthplace:"Krapa, Ghana",image:"https://api.athleticspodium.com/media/athletes/26621/d6242d6a-79d2-4b14-bda6-f0e66fb3601b.jpeg"}
   ]
   const [athletes, setAthletes] = useState(top_athletes)
-  console.log(athletes)
   return (
     <>
         <Modal>
