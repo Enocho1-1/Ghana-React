@@ -9,6 +9,12 @@
     text-decoration: none;
   }
 
+  @keyframes fade{
+    0%{
+        opacity: 0;
+    }
+  }
+
   /* Buttons & Elements */
   .buttonLink, .branchLink{
     display: flex;
@@ -19,6 +25,7 @@
     opacity: 0.5;
     box-shadow: 0.313em 0.313em 0.313em #0d0d0d;
     animation: move-1 3s infinite;
+    animation: fade ease-in 6s;
   }
 
   
