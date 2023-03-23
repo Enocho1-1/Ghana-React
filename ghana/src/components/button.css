@@ -147,5 +147,9 @@
     width: 20rem;
   }
 
+  :is(.early-history, .independence){
+    background-position: 20%;
+  }
+
   
 }
