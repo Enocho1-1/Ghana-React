@@ -12,7 +12,8 @@ export const Governortable = ({list}) => {
             <th>Prime Minister</th>
         </tr>
         {list.map( item => (
-            <tr>
+            
+            <tr key={item.No}>
                 <td>{item.No}</td>
                 <td>{item.name}</td>
                 <td><img src={item.potrait}/></td>

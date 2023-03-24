@@ -5,6 +5,7 @@ import Bawumia from "../assests/addo (2).jpg"
 export const Executivemodal = () => {
   const executive_branch = [
     {
+        no:'1',
         office:'President',
         name: 'Nana Akufo-Addo',
         party:'New Patriotic Party',
@@ -13,6 +14,7 @@ export const Executivemodal = () => {
         party_image: NPP
     },
     {
+        no:'2',
         office:'Vice President',
         name: 'Mahamudu Bawumia',
         party:'New Patriotic Party',
@@ -38,7 +40,7 @@ export const Executivemodal = () => {
                 </tr>
                
                  {executive_branch.map( item => (
-                  <tr>
+                  <tr key={item.no}>
                     <td>{item.office}</td>
                     <td>{item.name}</td>
                     <td><img src={item.image} alt="" /></td>

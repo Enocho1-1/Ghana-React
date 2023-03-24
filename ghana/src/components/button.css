@@ -147,6 +147,21 @@
     width: 20rem;
   }
 
+  .branchLinkcontain{
+    display: grid;
+    grid-template-columns: 10rem 10rem   ;
+    grid-template-rows: 10rem 10rem   ;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  .branchLink {
+    margin-top: 0.313rem;
+    height: 10em;
+    width: 10em;
+    text-align: center;
+  }
+
   :is(.early-history, .independence){
     background-position: 20%;
   }
