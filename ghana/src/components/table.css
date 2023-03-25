@@ -2,7 +2,7 @@
 table{
     margin:5px;
     margin-inline:auto;
-    width: fit-content;
+    width: 75%;
     font-size: 1.2rem;
     text-align: center;
     border-collapse: collapse;
@@ -26,8 +26,12 @@ table{
 /* Media Query */
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px){
-.tableScroller{
-    overflow-x: scroll;
-}
+  .tableScroller{
+      overflow-x: scroll;
+  }
 
+  td img{
+    height: 5em;
+    width: 3.5em;
+  }
 }
