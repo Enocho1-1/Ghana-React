@@ -3,7 +3,7 @@ import "./button.css"
 export const Buttoncontainer = ({children}) => {
   
   return (
-    <section>
+    <section className="buttonParent">
         <div className="buttonContainer">
           {children}
         </div>

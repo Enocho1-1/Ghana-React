@@ -6,6 +6,7 @@ h2{
     font-size: 1.563rem;
 }
 
+
 .pop-overlay{
     position: absolute;
     width: 100%; 
@@ -55,16 +56,17 @@ h2{
 .explore-head {
     text-align:center;
     margin-top: 1em;
-
 }
 
 .explore-text{
     padding: 0.625em;
-    font-size: 1.875rem;
+  
 }
 
 .explore-text p{
     display: inline;
+    font-size: 1.875rem;
+    margin: 5px;
 }
 
 .explore-text img{
@@ -127,10 +129,30 @@ table{
 /* Media Query */
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px){
+
+
     .modal{
         width: 100%;
         padding: 0.313em;
     }
+
+    .explore-head {
+        text-align:center;
+        /* margin-top: 1em; */
+    }
+
+    .explore-text p{
+        display: inline;
+        font-size: 0.5rem;
+    }
+    
+    .explore-text img{
+        width: 6.25em;
+        height:6.25em;
+        margin: 0 25px;
+        shape-outside: inset(5%);
+    }
+    
 
 }
 

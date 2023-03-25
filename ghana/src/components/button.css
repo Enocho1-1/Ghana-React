@@ -129,12 +129,13 @@
   /* Media Query */
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px){
-  section{
+  .buttonParent{
     position: absolute;
     top: 18%;
     height: 500px;
     width: 450px;
-    overflow-y: scroll;
+    overflow-y:scroll;
+    overflow-x: hidden;
   }
 
   .buttonContainer{
