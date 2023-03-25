@@ -1,9 +1,4 @@
 import "../components/button.css"
-import { Modalcontain } from "../components/Modalcontain"
-import { Executivemodal } from "./Executivemodal"
-import { Legislativemodal } from "./Legislativemodal"
-import { Judicialmodal } from "./Judicialmodal"
-import { Headsmodal } from "./Headsmodal"
 
 export const Branches = () => {
   
@@ -23,21 +18,6 @@ export const Branches = () => {
                 <h1>Heads of State</h1>
             </a>
         </div>
-
-        {/* Pop Up Modals */}
-        <Modalcontain id="executive"> 
-          <Executivemodal   />
-        </Modalcontain>
-        <Modalcontain id="legislative"> 
-          <Legislativemodal   />
-        </Modalcontain>
-        <Modalcontain id="judicial"> 
-          <Judicialmodal   />
-        </Modalcontain>
-        <Modalcontain id="heads"> 
-          <Headsmodal   />
-        </Modalcontain>
-        {/* Pop Up Modals */}
     </>
     
     

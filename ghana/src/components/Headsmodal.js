@@ -3,6 +3,7 @@ import { Modal } from "./Modal"
 import { Paragraphstyle } from "./Paragraphstyle"
 import { Governortable } from "./Governortable"
 import { Table } from "./Table"
+import"./table.css"
 import Queen from "../assests/queen.jpg"
 import Windsor from "../assests/windsor.png"
 import CPP from "../assests/CPP.jpg"
@@ -260,31 +261,38 @@ const fourth_republic = [
             </div>
             {/* Monarchy */}
             <h2 className="explore-head">Monarch (1957–1960)</h2>
-            <table>
-              <tr>
-                  <th>No.</th>
-                  <th>Name</th>
-                  <th>Portrait</th>
-                  <th>Reign</th>
-                  <th>Royal House</th>
-                  <th>Prime Minister</th>
-              </tr>
-              {monarch_branch .map(item => (
-                <tr key={item.No}>
-                  <td>{item.No}</td>
-                  <td>{item.name}</td>
-                  <td><img src={item.potrait} alt="Queen Elizabeth II" /></td>
-                  <td>
-                    {item.reign}
-                    <br />
-                    {item.length}
-                  </td>
-                  <td><img src={item.image} title={item.royal}/></td>
-                  <td><img src={item.pm} alt="" title="Kwame Nkrumah"/></td>
-                </tr>
-              ))}
-            </table>
-
+            <div className="tableScroller">
+              <table>
+                <thead>
+                  <tr>
+                      <th>No.</th>
+                      <th>Name</th>
+                      <th>Portrait</th>
+                      <th>Reign</th>
+                      <th>Royal House</th>
+                      <th>Prime Minister</th>
+                  </tr>
+                </thead>
+        
+               <tbody>
+                {monarch_branch .map(item => (
+                    <tr key={item.No}>
+                      <td>{item.No}</td>
+                      <td>{item.name}</td>
+                      <td><img src={item.potrait} alt="Queen Elizabeth II" /></td>
+                      <td>
+                        {item.reign}
+                        <br />
+                        {item.length}
+                      </td>
+                      <td><img src={item.image} title={item.royal}/></td>
+                      <td><img src={item.pm} alt="" title="Kwame Nkrumah"/></td>
+                    </tr>
+                  ))}
+               </tbody>
+              </table>
+            </div>
+           
           {/* Governor General */}
           <h2 className="explore-head">Governor General</h2>
           <Paragraphstyle>

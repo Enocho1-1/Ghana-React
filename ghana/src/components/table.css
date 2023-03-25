@@ -1,0 +1,33 @@
+
+table{
+    margin:5px;
+    margin-inline:auto;
+    width: fit-content;
+    font-size: 1.2rem;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  
+    td, th {
+      border: 0.063em solid #F8F0E3;
+      padding: 0.5rem;
+    }
+  
+    td img{
+      height: 6.25em;
+      width: 4.688em;
+    }
+  
+    td img:hover{
+      cursor: pointer;
+    }
+
+/* Media Query */
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px){
+.tableScroller{
+    overflow-x: scroll;
+}
+
+}
