@@ -72,7 +72,7 @@ h2{
     width:150px;
     height:150px;
     margin: 0 25px;
-    shape-outside: inset(5%);
+    shape-outside: inset(8%);
 }
 
 .explore-text img:hover{
