@@ -1,6 +1,5 @@
-import { useState } from "react"
+
 import { Modal } from "./Modal"
-import { Scrollerx } from "./Scrollerx"
 import Nelson from "../assests/AZ.jpg"
 import Kuffour from "../assests/kuffour.jpg"
 import Vida from "../assests/anim.jpg"
