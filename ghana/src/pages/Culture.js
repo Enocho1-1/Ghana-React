@@ -8,7 +8,7 @@ import { Modalcontain } from "../components/Modalcontain"
 import { Culturemodal } from "../components/Culturemodal"
 import { Artmodal } from "../components/Artmodal"
 import { Sportsmodal } from "../components/Sportsmodal"
-import videoBg from "../assests/volta.mov"
+import videoBg from "../assests/volta.mp4"
 import "../components/button.css"
 
 export const Culture = () => {

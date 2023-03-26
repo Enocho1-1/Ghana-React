@@ -12,7 +12,7 @@ import { Legislativemodal } from "../components/Legislativemodal"
 import { Judicialmodal } from "../components/Judicialmodal"
 import { Headsmodal } from "../components/Headsmodal"
 import { Partiesmodal } from "../components/Partiesmodal"
-import videoBg from "../assests/timelapse.mov"
+import videoBg from "../assests/timelapse.mp4"
 import "../components/button.css"
 
 export const Politics = () => {

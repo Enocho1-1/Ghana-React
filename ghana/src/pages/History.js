@@ -8,7 +8,7 @@ import { Modalcontain } from "../components/Modalcontain"
 import { Historymodal } from "../components/Historymodal"
 import { Independencemodal } from "../components/Independencemodal"
 import { Presentmodal } from "../components/Presentmodal"
-import videoBg from "../assests/indy-arch.mov"
+import videoBg from "../assests/indy-arch.mp4"
 import "../components/button.css"
 
 export const History = () => {
