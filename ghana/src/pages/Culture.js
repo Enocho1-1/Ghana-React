@@ -1,5 +1,4 @@
-import { Navbar } from "../components/Navbar"
-import { Sidemenu } from "../components/Sidemenu"
+
 import { Video } from "../components/Video"
 import { Overlay } from "../components/Overlay"
 import { Buttoncontainer } from "../components/Buttoncontainer"
@@ -15,10 +14,6 @@ export const Culture = () => {
 
   return (
     <main>
-        {/* Navagation Button */}
-        < Navbar />
-        {/* Navagation Menu */}
-        < Sidemenu />
         <Buttoncontainer>
             <Button topic="culture" target="#culture">
               <h1>Cultural Environment</h1>

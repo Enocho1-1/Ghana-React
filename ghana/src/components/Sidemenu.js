@@ -11,9 +11,9 @@ export const Sidemenu = () => {
       <Closebutton />
       <div className="menu-options">
         <Link to="/">Home</Link>
-        <Link to="/history">History</Link>
-        <Link to="/culture">Culture</Link>
-        <Link to="/politics">Politics</Link>
+        <Link to="history">History</Link>
+        <Link to="culture">Culture</Link>
+        <Link to="politics">Politics</Link>
       </div>
     </div>
   )

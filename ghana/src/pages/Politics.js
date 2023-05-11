@@ -1,5 +1,4 @@
-import { Navbar } from "../components/Navbar"
-import { Sidemenu } from "../components/Sidemenu"
+
 import { Video } from "../components/Video"
 import { Overlay } from "../components/Overlay"
 import { Buttoncontainer } from "../components/Buttoncontainer"
@@ -18,10 +17,6 @@ import "../components/button.css"
 export const Politics = () => {
   return (
     <main>
-        {/* Navagation Button */}
-        < Navbar />
-        {/* Navagation Menu */}
-        < Sidemenu />
         <Buttoncontainer>
             <Button topic="govt" target="#govt">
                 <h1>Government & Politics</h1>
