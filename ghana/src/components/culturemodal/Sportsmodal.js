@@ -1,9 +1,9 @@
 
-import { Modal } from "./Modal"
-import Nelson from "../assests/AZ.jpg"
-import Kuffour from "../assests/kuffour.jpg"
-import Vida from "../assests/anim.jpg"
-import Gyan from "../assests/gyan.jpg"
+import { Modal } from "../Modal"
+import Nelson from "../../assests/AZ.jpg"
+import Kuffour from "../../assests/kuffour.jpg"
+import Vida from "../../assests/anim.jpg"
+import Gyan from "../../assests/gyan.jpg"
 
 
 export const Sportsmodal = () => {

@@ -1,11 +1,11 @@
-import { Modal } from "./Modal"
-import Playright from "../assests/marriage+ana.jpg"
-import Efua from "../assests/efua.jpg"
-import Ama from "../assests/ama.jpeg"
-import Ayi from "../assests/ayi.jpg"
-import Carving from "../assests/wood carving.jpg"
-import Dance from "../assests/dance.jpg"
-import Danceensemble from "../assests/dance-ensemble.jpg"
+import { Modal } from "../Modal"
+import Playright from "../../assests/marriage+ana.jpg"
+import Efua from "../../assests/efua.jpg"
+import Ama from "../../assests/ama.jpeg"
+import Ayi from "../../assests/ayi.jpg"
+import Carving from "../../assests/wood carving.jpg"
+import Dance from "../../assests/dance.jpg"
+import Danceensemble from "../../assests/dance-ensemble.jpg"
 
 export const Artmodal = () => {
   return (
