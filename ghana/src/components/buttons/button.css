@@ -78,52 +78,52 @@
   
  
   .early-history{
-    background-image: url('../assests/akan-artifact.jpg'); 
+    background-image: url('../../assests/akan-artifact.jpg'); 
   }
 
   .independence{
-    background-image: url('../assests/kn.jpg'); 
+    background-image: url('../../assests/kn.jpg'); 
   }
 
   .present{
-    background-image: url('../assests/traffic.jpg'); 
+    background-image: url('../../assests/traffic.jpg'); 
   
   }
 
   .culture{
-    background-image: url('../assests/culturalEnv.jpg'); 
+    background-image: url('../../assests/culturalEnv.jpg'); 
   }
 
   .art{
-    background-image: url('../assests/litart.jpg'); 
+    background-image: url('../../assests/litart.jpg'); 
   }
 
   .sports{
-    background-image: url('../assests/kudus.jpg'); 
+    background-image: url('../../assests/kudus.jpg'); 
   }
 
   .govt{
-    background-image: url('../assests/peopeGH.jpg'); 
+    background-image: url('../../assests/peopeGH.jpg'); 
   }
 
   .parties{
-    background-image: url('../assests/politicalparty.jpg'); 
+    background-image: url('../../assests/politicalparty.jpg'); 
   }
 
   .executive{
-    background-image: url('../assests/seal.png'); 
+    background-image: url('../../assests/seal.png'); 
   }
 
   .legislative{
-    background-image: url('../assests/Ghana_Parliament_Emblem.png'); 
+    background-image: url('../../assests/Ghana_Parliament_Emblem.png'); 
   }
 
   .judicial{
-    background-image: url('../assests/supreme.jpg'); 
+    background-image: url('../../assests/supreme.jpg'); 
   }
 
   .heads{
-    background-image: url('../assests/former-pres.jpg'); 
+    background-image: url('../../assests/former-pres.jpg'); 
   }
 
   /* Media Query */

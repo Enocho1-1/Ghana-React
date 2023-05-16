@@ -1,12 +1,11 @@
 
 import { Video } from "../components/Video"
 import { Overlay } from "../components/Overlay"
-import { Buttoncontainer } from "../components/Buttoncontainer"
-import { Button } from "../components/Button"
+import {  Button, Buttoncontainer } from "../components/index"
 import { Modalcontain } from "../components/Modalcontain"
 import { Historymodal, Independencemodal, Presentmodal} from "../components/index"
 import videoBg from "../assests/indy-arch.mp4"
-import "../components/button.css"
+import "../components/buttons/button.css"
 
 export const History = () => {
   return (

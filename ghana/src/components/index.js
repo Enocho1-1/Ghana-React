@@ -1,3 +1,8 @@
+
+//Buttons Modals
+export { Button } from "./buttons/Button"
+export { Buttoncontainer } from "./buttons/Buttoncontainer"
+
 // History Modals
 export { Historymodal } from "./historymodal/Historymodal"
 export { Independencemodal } from "./historymodal/Independencemodal"
