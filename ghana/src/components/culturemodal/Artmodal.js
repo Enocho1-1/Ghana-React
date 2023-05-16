@@ -1,4 +1,4 @@
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import Playright from "../../assests/marriage+ana.jpg"
 import Efua from "../../assests/efua.jpg"
 import Ama from "../../assests/ama.jpeg"

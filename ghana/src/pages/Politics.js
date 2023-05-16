@@ -1,8 +1,7 @@
 
-import { Video } from "../components/Video"
-import { Overlay } from "../components/Overlay"
+import { Video, Overlay } from "../components/index"
 import {  Button, Buttoncontainer } from "../components/index"
-import { Modalcontain } from "../components/Modalcontain"
+import { Modalcontain } from "../components/index"
 import { Branches, Govtmodal, Executivemodal, Legislativemodal, Judicialmodal, Headsmodal, Partiesmodal } from "../components/index"
 import videoBg from "../assests/timelapse.mp4"
 import "../components/buttons/button.css"

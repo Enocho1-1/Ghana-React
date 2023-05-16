@@ -1,4 +1,4 @@
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import Asante from "../../assests/asante chief.webp"
 import Religion from "../../assests/religion.webp"
 import Fishing from "../../assests/fishing.jpg"

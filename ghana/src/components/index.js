@@ -1,7 +1,16 @@
 
-//Buttons Modals
+//Buttons 
 export { Button } from "./buttons/Button"
 export { Buttoncontainer } from "./buttons/Buttoncontainer"
+export { Closebutton } from "./buttons/Closebutton"
+
+//Video 
+export { Video} from "./video/Video"
+export { Overlay  } from "./video/Overlay"
+
+//Modal
+export { Modal } from "./modal/Modal"
+export { Modalcontain  } from "./modal/Modalcontain"
 
 // History Modals
 export { Historymodal } from "./historymodal/Historymodal"

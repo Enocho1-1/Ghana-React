@@ -1,5 +1,5 @@
 
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import Nelson from "../../assests/AZ.jpg"
 import Kuffour from "../../assests/kuffour.jpg"
 import Vida from "../../assests/anim.jpg"

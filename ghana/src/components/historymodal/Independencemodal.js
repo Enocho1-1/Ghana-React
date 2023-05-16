@@ -1,4 +1,4 @@
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import Bigsix from "../../assests/big-six.png"
 import Salute from "../../assests/Ghana Salute.jpg"
 import Coloniser from "../../assests/colonize.jpg"

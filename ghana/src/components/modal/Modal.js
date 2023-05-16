@@ -1,5 +1,5 @@
 import './modal.css'
-import { Closebutton } from './Closebutton'
+import { Closebutton } from '../buttons/Closebutton'
 
 
 export const Modal = ({id, children}) => {

@@ -1,5 +1,5 @@
 
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import { Paragraphstyle } from "../Paragraphstyle"
 import { Governortable, Table } from "../index"
 import"../tables/table.css"

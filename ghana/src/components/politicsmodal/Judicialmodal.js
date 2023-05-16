@@ -1,4 +1,4 @@
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import Supremecourt from "../../assests/supreme.jpg"
 import Judges from "../../assests/supreme-court-judges-in-parliament.jpg"
 import Wood from "../../assests/CJ Georgina Wood.jpg"

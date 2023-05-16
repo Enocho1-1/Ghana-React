@@ -1,4 +1,4 @@
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import NDC from "../../assests/ndc.png"
 import NPP from "../../assests/npp.png"
 

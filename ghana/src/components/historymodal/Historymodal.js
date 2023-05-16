@@ -1,4 +1,4 @@
-import { Modal } from "../Modal"
+import { Modal } from "../modal/Modal"
 import Ancientmap from "../../assests/ancient_ghana_map.jpg"
 import Goldenstool from "../../assests/golden_stool.jpg"
 import King from "../../assests/King.jpg"

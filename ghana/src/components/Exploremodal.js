@@ -1,8 +1,8 @@
 
 import "./landmarks.css"
-import "./modal.css"
+import "./modal/modal.css"
 import { Landmarksdisplay } from "./Landmarksdisplay"
-import { Modal } from "./Modal"
+import { Modal } from "./modal/Modal"
 
 
 export const Exploremodal = () => {

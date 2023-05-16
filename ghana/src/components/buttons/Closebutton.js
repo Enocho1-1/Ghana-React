@@ -1,4 +1,4 @@
-import Close from "../assests/ghana.png"
+import Close from "../../assests/ghana.png"
 export const Closebutton = () => {
     const style = {
         width:"3rem",
