@@ -1,9 +1,9 @@
-import { Modal } from "./Modal"
-import Ancientmap from "../assests/ancient_ghana_map.jpg"
-import Goldenstool from "../assests/golden_stool.jpg"
-import King from "../assests/King.jpg"
-import Trade from "../assests/traderoutes.png"
-import Almoravids from "../assests/almoravids.jpg"
+import { Modal } from "../Modal"
+import Ancientmap from "../../assests/ancient_ghana_map.jpg"
+import Goldenstool from "../../assests/golden_stool.jpg"
+import King from "../../assests/King.jpg"
+import Trade from "../../assests/traderoutes.png"
+import Almoravids from "../../assests/almoravids.jpg"
 
 
 export const Historymodal = () => {

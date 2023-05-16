@@ -1,8 +1,8 @@
-import { Modal } from "./Modal"
-import Bigsix from "../assests/big-six.png"
-import Salute from "../assests/Ghana Salute.jpg"
-import Coloniser from "../assests/colonize.jpg"
-import Elmina from "../assests/Elmina-castle-Ghana.jpg"
+import { Modal } from "../Modal"
+import Bigsix from "../../assests/big-six.png"
+import Salute from "../../assests/Ghana Salute.jpg"
+import Coloniser from "../../assests/colonize.jpg"
+import Elmina from "../../assests/Elmina-castle-Ghana.jpg"
 
 
 export const Independencemodal = () => {

@@ -1,9 +1,9 @@
-import { Modal } from "./Modal"
-import Asante from "../assests/asante chief.webp"
-import Religion from "../assests/religion.webp"
-import Fishing from "../assests/fishing.jpg"
-import Coco from "../assests/coco.jpg"
-import Timber from "../assests/timber.jpg"
+import { Modal } from "../Modal"
+import Asante from "../../assests/asante chief.webp"
+import Religion from "../../assests/religion.webp"
+import Fishing from "../../assests/fishing.jpg"
+import Coco from "../../assests/coco.jpg"
+import Timber from "../../assests/timber.jpg"
 
 
 export const Presentmodal = () => {
