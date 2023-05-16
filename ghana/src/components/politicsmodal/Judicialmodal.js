@@ -1,7 +1,7 @@
-import { Modal } from "./Modal"
-import Supremecourt from "../assests/supreme.jpg"
-import Judges from "../assests/supreme-court-judges-in-parliament.jpg"
-import Wood from "../assests/CJ Georgina Wood.jpg"
+import { Modal } from "../Modal"
+import Supremecourt from "../../assests/supreme.jpg"
+import Judges from "../../assests/supreme-court-judges-in-parliament.jpg"
+import Wood from "../../assests/CJ Georgina Wood.jpg"
 export const Judicialmodal = () => {
   return (
     <Modal>

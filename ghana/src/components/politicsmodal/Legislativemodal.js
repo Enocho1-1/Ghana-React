@@ -1,6 +1,6 @@
-import { Modal } from "./Modal"
-import Parliament from "../assests/parliament.jpg"
-import Emblem from "../assests/Ghana_Parliament_Emblem.png"
+import { Modal } from "../Modal"
+import Parliament from "../../assests/parliament.jpg"
+import Emblem from "../../assests/Ghana_Parliament_Emblem.png"
 
 export const Legislativemodal = () => {
   return (

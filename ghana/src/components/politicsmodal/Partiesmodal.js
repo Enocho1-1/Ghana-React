@@ -1,10 +1,10 @@
-import { Modal } from "./Modal"
-import Parties from "../assests/ndc-npp.jpg" 
-import NDC from "../assests/ndc.png"
-import NPP from "../assests/npp.png"
-import Rawlings from "../assests/Jerry_Rawlings(cropped).jpg"
-import Ignatius from "../assests/Ignatius.jpg"
-import Kufor from "../assests/kufuor.jpg"
+import { Modal } from "../Modal"
+import Parties from "../../assests/ndc-npp.jpg" 
+import NDC from "../../assests/ndc.png"
+import NPP from "../../assests/npp.png"
+import Rawlings from "../../assests/Jerry_Rawlings(cropped).jpg"
+import Ignatius from "../../assests/Ignatius.jpg"
+import Kufor from "../../assests/kufuor.jpg"
 
 export const Partiesmodal = () => {
   return (

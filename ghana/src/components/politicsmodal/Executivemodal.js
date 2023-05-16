@@ -1,8 +1,8 @@
-import { Modal } from "./Modal"
-import"./table.css"
-import NPP from "../assests/npp.png"
-import Addo from "../assests/addo (1).jpg"
-import Bawumia from "../assests/addo (2).jpg"
+import { Modal } from "../Modal"
+import"../tables/table.css"
+import NPP from "../../assests/npp.png"
+import Addo from "../../assests/addo (1).jpg"
+import Bawumia from "../../assests/addo (2).jpg"
 export const Executivemodal = () => {
   const executive_branch = [
     {

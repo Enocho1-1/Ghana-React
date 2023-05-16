@@ -1,6 +1,6 @@
-import { Modal } from "./Modal"
-import NDC from "../assests/ndc.png"
-import NPP from "../assests/npp.png"
+import { Modal } from "../Modal"
+import NDC from "../../assests/ndc.png"
+import NPP from "../../assests/npp.png"
 
 export const Govtmodal = () => {
   return (
