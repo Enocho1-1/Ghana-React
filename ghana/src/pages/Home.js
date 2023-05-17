@@ -1,9 +1,8 @@
 
 
-import { Introtext } from "../components/Introtext"
+import { Introtext,  Exploremodal} from "../components/index"
 import { Video, Overlay } from "../components/index"
 import { Modalcontain } from "../components/index"
-import { Exploremodal } from "../components/Exploremodal"
 import videoBg from "../assests/ghana-133663.mp4"
 
 export const Home = () => {

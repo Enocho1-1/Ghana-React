@@ -1,5 +1,5 @@
 import "./navbar.css"
-import Star from "../assests/star.png"
+import Star from "../../assests/star.png"
 
 export const Navbar = () => {
   return (

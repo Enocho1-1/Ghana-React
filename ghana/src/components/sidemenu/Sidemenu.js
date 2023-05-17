@@ -1,6 +1,6 @@
 import "./sidemenu.css"
-import { Closebutton } from './buttons/Closebutton'
-import { AllLinks } from "../Links/AllLinks"
+import { Closebutton } from '../buttons/Closebutton'
+import { AllLinks } from "../../Links/AllLinks"
 
 export const Sidemenu = () => {
   return (

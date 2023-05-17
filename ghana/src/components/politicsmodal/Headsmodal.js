@@ -1,6 +1,6 @@
 
 import { Modal } from "../modal/Modal"
-import { Paragraphstyle } from "../Paragraphstyle"
+import { Paragraphstyle } from "../title + paragraph/Paragraphstyle"
 import { Governortable, Table } from "../index"
 import"../tables/table.css"
 import Queen from "../../assests/queen.jpg"

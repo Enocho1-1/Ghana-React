@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 import "./landmarks.css"
 
 
@@ -63,10 +63,11 @@ export const Landmarksdisplay = () => {
           image: 'https://www.blackpast.org/wp-content/uploads/prodimages/files/blackpast_images/Cape_Coast_Castle_Ghana_May_19_2019_Photo_by_Strange_Acid__CC_BY-SA_4.0.jpg'
       }
     ]
-    const [landmarks, setLandmarks] = useState(landmarkers)
+  
+    
   return (
     <>
-        {landmarks.map( landmark => (
+        {landmarkers.map( landmark => (
             <div key={landmark.id} className="attraction">
                 <img src={landmark.image} alt={landmark.name} />
                 <div>
