@@ -1,21 +1,5 @@
 
 
-.navagation-link{
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  z-index: 4;
-}
-
-.navagation-link > img{
-  max-height: 3.125rem;
-  max-width: 3.125rem;
-}
-
-.navagation-link:hover{
-  cursor: pointer;
-}
-
 .navagation-link::before{
   content: "";
   display: block;
@@ -23,9 +7,9 @@
   background-color: var(--theme-red);;
   transition: all 1s;
   opacity: 0;
-}
+} 
 
-.navagation-link::after{
+ .navagation-link::after{
   content: "";
   display: block;
   height: 5px;
@@ -40,7 +24,7 @@
   height: 5px;
   background-color: var(--theme-red);
   opacity: 1; 
-}
+} 
 
 .navagation-link:hover::after{
   content: "";

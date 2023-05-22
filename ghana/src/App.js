@@ -3,7 +3,7 @@ import { AllRoutes } from "./routes/AllRoutes"
 
 export const App = () => {
   return (
-      <main>
+      <main className="overflow-hidden relative h-screen w-screen">
         < Navbar />
         < Sidemenu />
         < AllRoutes />

@@ -5,6 +5,6 @@ export const Closebutton = () => {
         height:"3rem",
       }
     return (
-      <a href="#" className="modal-close" title="close"><img src={Close} style={style}/></a>
+      <a href="#" className="modal-close absolute top-[2%] left-[5%] no-underline" title="close"><img src={Close} style={style}/></a>
     )
   }
