@@ -43,3 +43,9 @@
 a{
   text-decoration: none;
 }
+
+video{
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}

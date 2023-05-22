@@ -1,9 +1,9 @@
-import "./video.css"
+
 
 
 export const Video = ({children}) => {
   return (
-        <div className="videoBack">
+        <div className="h-full w-full">
             {children}
         </div>
 
