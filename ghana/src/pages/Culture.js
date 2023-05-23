@@ -34,7 +34,7 @@ export const Culture = () => {
         </Modalcontain>
         {/* Pop Up Modals */}
         < Video>
-        <video src={videoBg} autoPlay loop muted />
+        <video className="h-screen w-screen object-cover"  src={videoBg} autoPlay loop muted />
         </Video>
         < Overlay />
     </main>

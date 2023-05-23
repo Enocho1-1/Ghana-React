@@ -11,8 +11,8 @@ export const Home = () => {
         {/* Introduction Text Menu */}
         < Introtext />
         {/* Video Background*/}
-        < Video>
-        <video src={videoBg} autoPlay loop muted />
+        <Video>
+          <video className="h-screen w-screen object-cover" src={videoBg} autoPlay loop muted />
         </Video>
         {/* Landmarks Modal*/}
         < Modalcontain id="landmarks"> 
