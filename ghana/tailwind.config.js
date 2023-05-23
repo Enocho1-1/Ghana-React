@@ -8,10 +8,12 @@ module.exports = {
           100: "#cc0000",
           200: "#ffff00",
           300: "#008000",
+          400: "#F8F0E3",
         }
        
       }
     },
+    
     letterSpacing: {
       normal: "0.25rem",
     }

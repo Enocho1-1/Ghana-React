@@ -2,7 +2,7 @@ import "./introtext.css"
 
 export const Introtext = () => {
   return (
-        <div className="intro-text absolute top-[20%] left-[2%] m-[4.688rem] w-[21.875em] text-ghColor-100 leading-tight z-10">
+        <div className="intro-text absolute top-[20%] left-[2%] m-[4.688rem] w-[21.875em] text-ghColor-100 leading-tight z-[1]">
             <h1>The Golden Coast</h1>
             Where the banner of Ghana freely flies,
             May the way of freedom truly lie;
