@@ -11,7 +11,11 @@ module.exports = {
         }
        
       }
+    },
+    letterSpacing: {
+      normal: "0.25rem",
     }
+
   }
 }
 
